@@ -9,7 +9,9 @@ public class Test {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("META-INF/spring/provider.xml");
         context.start();
+        System.out.println("11");
         System.in.read();
+
 
     }
 }
